@@ -1,0 +1,284 @@
+#sayfa {
+ width: 1000px;
+ margin-right: auto;
+ margin-left: auto;
+}
+.icerik {
+ float: left;
+ height: auto;
+ width: 1000px;
+}
+.ortala {
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+#logo {
+ height: 80px;
+ width: 1000px;
+ margin-right: auto;
+ margin-left: auto;
+}
+#renkicin {
+ height: 60px;
+ width: 1000px;
+ background-color: #E99137;
+}
+#menu {
+ height: 50px;
+ width: 1000px;
+ margin-top: 10px;
+ background-color: #DDD;
+}
+#icerikrenk {
+ height: 430px;
+ width: 500px;
+ background-color: #111;
+ float: left;
+ margin-right: 20px;
+ margin-left: 65px;
+ margin-top: 10px;
+}
+#resimalan {
+ height: 360px;
+ width: 430px;
+ margin: 20px;
+ float: left;
+ color: #EEE;
+}
+#sagilk {
+ float: right;
+ height: 400px;
+ width: 200px;
+ margin-right: 25px;
+ margin-top: 10px;
+}
+#ilk {
+ height: 100px;
+ width: 170px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 25px;
+ background-color: #1e1e1d;
+}
+#orta {
+ height: 100px;
+ width: 170px;
+ margin-top: 25px;
+ margin-right: auto;
+ margin-left: auto;
+ background-color: #1e1e1d;
+}
+#alt {
+ height: 100px;
+ width: 170px;
+ margin-top: 25px;
+ margin-right: auto;
+ margin-left: auto;
+ background-color: #1e1e1d;
+}
+#footer {
+ height: 60px;
+ width: 500px;
+ margin-top: 10px;
+ background-color:gray;
+
+ float: left;
+}
+#footrenk {
+ height: 20px;
+ width: 1000px;
+ margin-left: -450px;
+ float: left;
+ margin-top: 21px;
+ background-color: #E99137;
+}
+
+
+
+
+
+.dd_menu {
+ padding:0px;
+ margin:0;
+ list-style-type:none;
+ height:30px;
+ background-color: #DDD;
+
+
+}
+.dd_menu li {
+ float:left;
+ height:30px;
+ border-right: solid 1px white;
+}
+.dd_menu li a {
+ display:block;
+ color:black;
+ text-decoration:none;
+ font:12px arial, verdana, sans-serif;
+ font-weight: bold;
+ padding-top: 9px;
+ padding-right: 20px;
+ padding-bottom: 9px;
+ padding-left: 20px;
+
+}
+.dd_menu li:hover a {text-decoration:underline;}
+
+.dd_menu ul {position:absolute; left:-9999px; top:-9999px; list-style-type:none;}
+.dd_menu li:hover {
+ position:relative;
+ background-color: #E99137;
+}
+.dd_menu li:hover ul {left:0px; top:30px; background:lavender; padding:3px; border:1px solid grey; width:160px;}
+.dd_menu li:hover ul li a {height:18px; padding:0px; display:block; font-size:11px; width:158px; line-height:18px; text-indent:5px; color:#444; background-color:lavender; text-decoration:none; border:1px solid transparent;}
+.solsidebar {
+ float: left;
+ height: 450px;
+ width: 150px;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+
+body {
+ background-color: #343434;
+}
+
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+	
+	}
+	
+ h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #212121;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 150px;
+	margin-top: 50px;
+  }
+	
+.sosyalbutonlar{
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+  	
+	
+	}
+	
+.sosyalbutonlar a  {
+  background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+  }
+    
+.sosyalbutonlar a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+.sosyalbutonlar .facebook:hover {
+      background-color: #3b5998;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+  .sosyalbutonlar .twitter:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+  
+ .sosyalbutonlar .google-plus:hover   {
+      background-color: #dd4b39;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .instagram:hover   {
+      background-color: #bc2a8d;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .linkedin:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .youtube:hover   {
+       background-color: #bb0000;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+
+.ilerenk {
+ height: 430px;
+ width: 500px;
+ background-color: #111;
+ float: left;
+ margin-right: 20px;
+ margin-left: 65px;
+ margin-top: 10px;
+}
+.ilealan {
+ height: 360px;
+ width: 430px;
+ margin: 20px;
+ color: #EEE;
+}
+
+.araba {
+    animation: jittery 4s infinite;
+  }
+
+@keyframes jittery {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+

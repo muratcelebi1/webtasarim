@@ -1,0 +1,105 @@
+<html><head>
+<script language="JavaScript">
+var sayac1 = 0;  
+function yaz1()
+{
+sayac1++;
+document.form.sayac1.value=sayac1;
+}
+</script>
+</style>
+<link href="stil dosyam.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div id="sayfa">
+  <div id="logo"><img src="logo.jfif" width="1000" height="100" /></div>
+  <div id="renkicin">
+    <div id="menu">
+      <ul class='dd_menu'>
+        <li><a href='ANASAYFA.html'>Anasayfa</a> </li>
+       <li><a href='ürünler.html'>Ürünler</a>
+          <ul>
+            <li><a href='kadın.html'>Kadın</a></li>
+            <li><a href='erkek.html'>Erkek</a></li>
+          </ul>
+        </li>
+        <li><a href='İLETİŞİM.html'>İletişim</a> </li>
+      </ul>
+      </div>
+  </div>
+  <div class="icerik">
+    <div id="sagilk">
+	<form method="POST" name="form">
+	 <button class="araba" >   
+    <i class="fas fa-shopping-cart"></i>
+   <input type="text" name="sayac1" maxlength="1" size="1"><br>
+  </button> 
+  
+      <div id="ilk"><img src="ürün4.jfif" width="200" height="150" border="0" usemap="#Map" onmouseover="banner.src='ürün4.jfif',this.style.background='orange';"
+ onmouseout="banner.src='ürün1.jfif',this.style.background='white';" />
+        
+      </div><br>
+    <div id="orta"><a href="ürün.html"><img src="ürün2.jfif" width="200" height="150" border="0" usemap="#Map2" 
+	 onmouseover="banner.src='ürün2.jfif',this.style.background='orange';"
+ onmouseout="banner.src='ürün1.jfif',this.style.background='white';" /> </a>
+      
+    </div><br>
+    <div id="alt"><img src="ürün3.jfif" width="200" height="150" border="0" usemap="#Map3" onmouseover="banner.src='ürün3.jfif',this.style.background='orange';"
+ onmouseout="banner.src='ürün1.jfif',this.style.background='white';" />
+      
+    </div>
+	
+	
+</div>
+    <div id="icerikrenk">
+      <div id="resimalan">
+      <p><img src="ürün1.jfif" name="banner" width="460" height="260" /></p><br>
+	  <br>
+	  <select name="renk">
+         <option value="beyaz">sarı</option>
+         <option value="kirmizi">kahverengi</option>
+         <option value="siyah">kremrengi</option>
+      </select> 
+	  
+	  <select name="numara">
+	     <option>35</option>
+         <option>36</option>
+		 <option>37</option>
+         <option>38</option>
+         <option>39</option>
+         <option>40</option>
+         <option>41</option>
+         <option>42</option>
+		 <option>43</option>
+         <option>44</option>
+         <option>45</option>
+		 <option>46</option>
+        
+      </select> <br><br>
+
+
+<input type="button" onclick="yaz1()" value="Sepete ekle">
+
+
+</form>
+    </div>
+</div>
+  </div>
+ 
+  <div class="sosyalbutonlar" id="footer" >
+
+      <a href="www.facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i> <img src="facebook.svg"/> </a>
+      <a href="www.twitter.com" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> <img src="twitter.svg"/></a>
+      <a href="www.google.com" target="_blank" class="google-plus" ><i class="fa fa-google-plus" aria-hidden="true"></i><img src="google.svg"/></a>
+      <a href="www.instagram.com" target="_blank" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i><img src="instagram.svg"/></a>
+      <a href="www.linkedin.com" target="_blank" class="linkedin" ><i class="fa fa-linkedin" aria-hidden="true"></i><img src="linkedin.svg"/></a>
+      <a href="www.youtube.com" target="_blank" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i> <img src="youtube.svg"/></a>
+     
+</div>
+</div>
+
+
+</body>
+</html>
